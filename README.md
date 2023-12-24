@@ -362,7 +362,7 @@
 <div class="my6">
      
     <div class="numbertext">6 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\6.jpg" width="100%">
+   <video> <source src="https://youtube.com/shorts/8v2vECpPMNU?si=royzcorU5DZXvxSg"></video>
     <div class="text">Caption Text</div>
   </div>
   <a href="#top">back to top</button>
