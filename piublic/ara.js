@@ -1,4 +1,3 @@
-console.log(firebase)
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -27,14 +26,19 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+Automatic Slideshow
+To display an automatic slideshow, use the following code:
 
+Example
+let slideIndex = 0;
+showSlides();
 
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
-  }}
+  }
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
@@ -44,13 +48,3 @@ function showSlides() {
   btnBack.addEventListener('click',()=>{ 
     window.history.back();
   });
-  const firebaseConfig = {
-    apiKey: "AIzaSyAjPMPHgT_eoG4npL0sjhOQI-l0G-wK09o",
-    authDomain: "starevnts-19467.firebaseapp.com",
-    projectId: "starevnts-19467",
-    storageBucket: "starevnts-19467.appspot.com",
-    messagingSenderId: "966864711223",
-    appId: "1:966864711223:web:0e2bacd8439bc1d47f99b2",
-    measurementId: "G-7X7F7C6EQB"
-  };
-  
