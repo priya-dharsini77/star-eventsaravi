@@ -6,6 +6,80 @@ hey this is about the catering service
 <link rel="stylesheet" type="text/css" href="aravi.css"> 
 <script src="ara.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!DOCTYPE HTML>
+<head>
+    <title>Services</title>
+</head>
+<body> 
+<style>
+                    body {
+                        background-image: url("SERVICE.jpg");
+                        background-position: fixed;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    p
+                    {
+                 font-family: cursive;
+color: brown;
+font-size: 45px;
+text-align: center;
+                    }
+                    .my3
+                    {
+                        color: hotpink;
+                        text-align: center;
+                        font-size: 45px;
+                        font-family: cursive;
+                    }
+            
+                     h3
+                     {
+                        text-align: center;
+                        font-size: 80px;
+                        color: black;
+                        font-family: cursive;
+                     } 
+                     .my4
+                     {
+                          text-align: center;
+                        font-size: 80px;
+                        color: white;
+                        font-family: cursive; 
+                     }
+                      .my5
+                      {
+                          text-align: center;
+                        font-size: 80px;
+                        color: purple;
+                        font-family: cursive;
+                      }
+                      .my6
+                      {
+                          text-align: center;
+                        font-size: 80px;
+                        color: green;
+                        font-family: cursive; 
+                      }
+                      .my7
+                      {
+                          text-align: center;
+                        font-size: 80px;
+                        color: orange;
+                        font-family: cursive; 
+                      }
+
+                </style>
+               <h3>Service</h3>
+                <p>CHOCOLATE FOUNTAIN</p>
+              <div class="my3">   COTTON CANDY </div>
+                <div class="my4">POP CORN</div>
+                <div class="my5">ICE CREAM</div>
+                <div class ="my6">  SWEET BEEDA</div>
+                <div class="my7">Welcome drinks</div>
+
+            </body>
+            </html>
 </head>
 <body>
 	
