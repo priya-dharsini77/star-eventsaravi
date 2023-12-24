@@ -323,7 +323,8 @@
     </div>
     <br>
     <br>
-
+    
+<video><source src: https://www.pexels.com/video/close-up-shot-of-a-chocolate-fountain-4367397/></video>
   <div class="my1">
     <div class="numbertext">1 / 14</div>
     <video controls src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\1.mp4" width="100%">
