@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <head>
 	<title>STAR EVENTS</title>
-<link rel="stylesheet" type="text/css" href="aravi.css"> 
-<script src="ara.js"></script>
+ 
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -13,7 +13,236 @@
    <div class="glitch" data-glitch="Star EvEnts">Star EvEnts</div>
 </div>
 <a href="size/.html">
+<style>
+    .iss{ 
+        margin: revert-layer; 
+        padding: 4px; 
+        font-family: Arial, Helvetica, sans-serif; 
+        background-image: url('imagesssss/.jpg');
+        background-repeat: no-repeat;
 
+        background-attachment: fixed;
+    } 
+  
+    h1 { 
+        color: green; 
+    } 
+  
+    h1, 
+    h3 { 
+        text-align: center; 
+    } 
+  
+    ul { 
+        margin: 0 10%; 
+        padding: 10px 0px 10px 100px; 
+        display: flex; 
+        background: green; 
+        
+    } 
+  
+    ul li { 
+        list-style: none; 
+
+        padding: 10px 20px; 
+  
+    } 
+  
+    ul li a { 
+        text-decoration: none; 
+        font-size: 24px; 
+        font-weight: bold; 
+        color: black; 
+        position: relative; 
+  
+    } 
+  
+    ul li a::before { 
+        content: ""; 
+        width: 0px; 
+        height: 10px; 
+        background: black; 
+        position: absolute; 
+        top: 100%; 
+        left: 0; 
+        transition: .5s; 
+    } 
+  
+    ul li a:hover::before { 
+        width: 50%; 
+        transform: translateX(100%); 
+ }
+ .book 
+ {
+ 	opacity: 0.0;
+ }
+ * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.danger
+ {
+ 	text-align: center;
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+  font-size: 30px;
+}
+.my1
+ {
+  display: flex;
+}
+.my2 marquee
+ {
+  display: flex;
+  direction: down;
+	width: 1000px;
+	height: 200px;
+	behavior: alternate;
+	style-border: solid;
+}
+
+.my3
+ {
+  display: flex;
+}
+.my4
+ {
+  display: flex;
+}
+.my5
+ {
+  display: flex;
+   allow: autoplay;
+   allow: accelerometer;
+}
+.my6
+ {
+  display: flex;
+}
+.my7
+ {
+  display: flex;
+}
+.my8
+ {
+  display: flex;
+}
+.my9
+ {
+  display: flex;
+}
+.my10
+ {
+  display: flex;
+}
+.my11
+ {
+  display: flex;
+}
+.my12
+ {
+  display: flex;
+}
+.my12
+ {
+  display: flex;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select:;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}}
+
+.fa-square-whatsapp
+{
+	height: 30%;
+	width: 30%;
+	color: green;
+}
+.fa-envelope
+{
+	height: 60%;
+	width: 60%;
+	color:  orange;
+}
+.size
+{
+	font-size: 35px;
+}
+</style>
 <style>
 .glitch-wrapper {
    width: 100%;
@@ -271,13 +500,64 @@
    }
 }
 </style>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+Automatic Slideshow
+To display an automatic slideshow, use the following code:
+
+Example
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image
+
+  let btnBack = document.querySelector('button');
+  btnBack.addEventListener('click',()=>{ 
+    window.history.back();
+  });
+</script>
 		 
 </body>
 
 <body> 
      <div class="book ">
-     	<p>hiii</p>
-     	<p>hiii</p>
+     	
      </div>
    <ul>
 
@@ -318,32 +598,31 @@
 <h2 id="location"></h2>
 <div class="my5">
     <div class="numbertext">5 / 14</div>
-    <video controls src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\chocolate fountain.mp4" width="100%">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/5bli53jSSg8?si=46txcMa2iC3Lt-YH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
     	<div class="text">Caption Text</div>
     </div>
     <br>
     <br>
-    
-<video><source src: https://www.pexels.com/video/close-up-shot-of-a-chocolate-fountain-4367397/></video>
+
   <div class="my1">
     <div class="numbertext">1 / 14</div>
-    <video controls src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\1.mp4" width="100%">
-    <div class="text">Caption Text</div>
+  
+    <div class="text">Caption Text</div> 
   </div>
   <br>
   <a href="#top">back to top</button>
 <br>
   <div class="my2">
     <div class="numbertext">2 / 14</div>
-    <marquee><img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\3.jpg" width="100%" height="200%">
-    <div class="text">Caption Text</div></marquee>
+    <iframe width="560" height="315" src=" https://www.youtube.com/embed/eBGfoXTvq0A?si=fSVx4cL4mHqKuoWL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="text">Caption Text</div>
   </div>
 <br>
 <br>
     <div class="my3">
     <div class="numbertext">3 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\4.jpg"  height="150%" width="80%">
-    <div class="text">Caption Text</div>
+  
+    <iframe width="560" height="315" src= "https://www.youtube.com/embed/llrFV5avnls?si=bZdRSmr_AL-ABfCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
   </div>
   <a href="#top">back to top</button>
@@ -351,7 +630,8 @@
 <br>
     <div class="my4">
     <div class="numbertext">4 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\5.jpg"  height="150%" width="80%">
+   
+    <iframe width="560" height="315" src= "https://www.youtube.com/embed/cXhZTAC2BrM?si=g89K_VAR4hcBfNQn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
     <div class="text">Caption Text</div>
   </div>
   <a href="#top">back to top</button>
@@ -362,78 +642,13 @@
 <div class="my6">
      
     <div class="numbertext">6 / 14</div>
-   <video> <source src="https://youtube.com/shorts/8v2vECpPMNU?si=royzcorU5DZXvxSg"></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/q1lk-NRPJqU?si=8Vh-btzDz5S1PRu6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
     <div class="text">Caption Text</div>
   </div>
-  <a href="#top">back to top</button>
+  <a href="#top"></button>
 <br>
   
- <br>
 
-  <div class="my7">
-    <div class="numbertext">7 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\7.jpg" width="100%">
-    <div class="text">Caption Text</div>
-  </div>
-<a href="#top">back to top</button>
-<br>
-<br>
-    <div class="my8">
-    <div class="numbertext">8 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\8.jpg" width="100%">
-    <div class="text">Caption Text</div>
-  </div>
-  <a href="#top">back to top</button>
-<br>
-<br>
-  <div class="my9">
-    <div class="numbertext">9 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\9.jpg" width="100%">
-    <div class="text">Caption Three</div>
-  </div>
-  <a href="#top">back to top</button>
-<br>
-<br>
-  <div class="my10">
-    <div class="numbertext">10 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\10.jpg" width="100%">
-    <div class="text">Caption Three</div>
-  </div>
-  <a href="#top">back to top</button>
-<br>
-<br>
-  <div class="my11">
-    <div class="numbertext">11 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\11.jpg" width="100%">
-    <div class="text">Caption Three</div>
-  </div>
-<br>
-<br>
-<a href="#top">back to top</button>
-  <div class="my12">
-    <div class="numbertext">12 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\12.jpg" width="100%">
-    <div class="text">Caption Three</div>
-  </div>
-<br>
-<br>
-
-  <div class="my13">
-    <div class="numbertext">13 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\13.jpg" width="100%">
-    <div class="text">Caption Three</div>
-  </div>
-<br>
-<br>
-<h2 id="img14">img14</h2>
-  <div class="my14">
-    <div class="numbertext">14 / 14</div>
-    <img src="C:\Users\ELCOT\Desktop\PROJECT FOLDER\imagesssss\14.jpg" width="100%">
-    <div class="text">Caption Three</div>
-  </div>
-  <a href="#top">back to top</button>
-  <br>
-  <br>
   <!-- Next and previous buttons -->
   <div class="prev">
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -485,6 +700,4 @@
 </body>
 </html> 
 
- 
 
-![feed](https://github.com/priya-dharsini77/star-eventsaravi/assets/154742672/97db850f-ae50-4c89-9ab2-3ff9855cb967)
