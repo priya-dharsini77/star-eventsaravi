@@ -17,6 +17,10 @@
 <style>
 .glitch-wrapper {
    width: 100%;
+
+https://github.com/priya-dharsini77/star-eventsaravi/assets/154742672/e1d2a398-3485-4231-a9be-a51cdcff5063
+
+
    height: 100%;
    display: flex;
    align-items: center;
@@ -484,7 +488,63 @@
 		</body>
 </body>
 </html> 
+   <!DOCTYPE HTML>
+            <head>
+            	<title>Contact us</title>
+            	
+            		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            		<style>
+            		body {
+            			background-image: url("mail.jpg");
+            			background-position: fixed;
+            			background-repeat: no-repeat;
+            			background-size: cover;
+            		}
+            		h1{
+            			color: black;
+            			align-content: center;
+            		}
+            		.me3{
+                      color: black;
+                      font-family: cursive;
+                      font-size: 30px;
+            		}
+            		a{
+            			font-size: 30px;
+            		}
+            		.mail{
+            			color: yellow;
+            			font-size: 95%;
+            		}
+            		.what
+            		{
+            			color: green;
+            			font-size: 95%;
+            		}
+            	</style>
+            </head>
+            <body>
+			<h1>Email</h1>			
+<div class="mail">
+<a href="mailto:stareventscatering61@gmail.com">stareventscatering61@gmail.com</a>
+<i class="fa-regular fa-envelope fa-beat-fade">E-mail</i>
+</div>
+		
+		<h2>Contact us</h2>
+			<div class="me3"><p>we are always here to help 24/7     
+			For star event customer care</p>
+			<br>
+			<body>
+				<div class="what">
+					<p> what's app</p>
+				<a href="86087 35290">86087 35290</a>
+			<i class="fa-brands fa-square-whatsapp fa-beat fa-2xl"></i>
+		</div>
 
- 
+<hr>
+<hr><hr><hr>
+		</body>
+		</html>
 
-![feed](https://github.com/priya-dharsini77/star-eventsaravi/assets/154742672/97db850f-ae50-4c89-9ab2-3ff9855cb967)
+
+
