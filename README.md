@@ -17,6 +17,10 @@
 <style>
 .glitch-wrapper {
    width: 100%;
+
+https://github.com/priya-dharsini77/star-eventsaravi/assets/154742672/e1d2a398-3485-4231-a9be-a51cdcff5063
+
+
    height: 100%;
    display: flex;
    align-items: center;
